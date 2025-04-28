@@ -1,6 +1,3 @@
-Here's your updated `README.md` with an example of how to use your package in an application, including the correct GitHub repository URL:
-
-```markdown
 # RuaDataAuth
 
 RuaDataAuth is a simple React package that provides authentication context and protected routes for managing user access in your application. It includes a `ProtectedRoute` component to ensure users can only access protected pages if they are authenticated.
@@ -22,11 +19,6 @@ To use this package in your project, you can install it via npm or yarn:
 npm install rua-data-auth
 ```
 
-Or, if you're using yarn:
-
-```bash
-yarn add rua-data-auth
-```
 
 ## Usage
 
@@ -113,15 +105,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Repository URL
 
 GitHub Repository: [https://github.com/enstso/RuaDataAuth.git](https://github.com/enstso/RuaDataAuth.git)
-```
-
-### Changes Made:
-1. **Usage Example**: Added a clear example of how to use the package in an application. It shows how to wrap the app in `AuthProvider` and use `ProtectedRoute` to protect specific routes.
-2. **GitHub Repository Link**: Updated the link to your GitHub repository (`https://github.com/enstso/RuaDataAuth.git`).
-3. **License**: MIT License section remains as a placeholder for the license.
-
-### Next Steps:
-- If you want, you can further customize the README to suit your application more precisely.
-
-Let me know if you'd like any more adjustments!
 ```
