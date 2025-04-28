@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",                         // Pour un code moderne
+      "module": "ESNext",                         // Pour un code moderne
+      "lib": ["DOM", "ESNext"],                   // Assurer l'accès aux nouvelles fonctionnalités de JS et du DOM
+      "declaration": true,                        // Générer les fichiers .d.ts pour le projet
+      "declarationDir": "dist/types",             // Emplacement des fichiers de types
+      "emitDeclarationOnly": false,               // Emission des fichiers .js et .d.ts
+      "outDir": "dist",                           // Sortie des fichiers compilés dans dist
+      "moduleResolution": "Node",                 // Résolution des modules compatible avec Node
+      "jsx": "react-jsx",                         // Utiliser la nouvelle transformation JSX (React 17+)
+      "strict": true,                             // Mode strict activé pour une meilleure sécurité du code
+      "esModuleInterop": true,                    // Permet l'importation des modules CommonJS
+      "skipLibCheck": true,                       // Ignore les vérifications des types dans les fichiers de définition
+      "forceConsistentCasingInFileNames": true    // Vérifie que les noms de fichiers sont toujours consistants
+    },
+    "include": ["src"],                           // Inclure le répertoire src
+    "exclude": ["node_modules", "dist", "example", "**/*.test.tsx", "**/*.test.ts"] // Exclure certains répertoires et fichiers
+  }
+  
